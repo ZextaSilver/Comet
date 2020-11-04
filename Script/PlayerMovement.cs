@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour{
 
+    //basic variables
     public float move_speed;
     private bool facing_right = true;
     private float move_x;
+
 
     void Update(){
 
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour{
 
     }
 
+    //functions used for all the player actions
     void player_move(){
 
         //control
@@ -39,6 +42,7 @@ public class PlayerMovement : MonoBehaviour{
 
     }
 
+    //function used to flip the character sprite alone the x axis
     void flip_player(){
 
         facing_right = !facing_right;
