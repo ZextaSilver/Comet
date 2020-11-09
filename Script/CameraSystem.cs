@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CameraSystem : MonoBehaviour
 {
-    //aaaaaaaaaaaaaaaaaaaaaaaa
     //basic variables
     private GameObject player;
     public float x_min;
